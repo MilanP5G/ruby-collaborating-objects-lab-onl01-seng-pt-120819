@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 require 'pry'
 
+=======
+>>>>>>> 7a9e85f2ca78d27f532de8668507ad2090ad51eb
 class Song 
   attr_accessor :artist, :name
   
@@ -7,13 +10,17 @@ class Song
   
   def initialize(name)
     @name = name
+<<<<<<< HEAD
     @@all << self 
+=======
+>>>>>>> 7a9e85f2ca78d27f532de8668507ad2090ad51eb
   end 
   
   def self.all
     @@all
   end 
   
+<<<<<<< HEAD
   
   def self.new_by_filename(filename)
     # binding pry 
@@ -30,4 +37,6 @@ class Song
   
 
   
+=======
+>>>>>>> 7a9e85f2ca78d27f532de8668507ad2090ad51eb
 end 

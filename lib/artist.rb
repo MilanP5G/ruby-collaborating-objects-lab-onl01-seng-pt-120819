@@ -1,18 +1,26 @@
 class Artist 
+<<<<<<< HEAD
   attr_accessor :name
+=======
+  attr_accessor :name 
+>>>>>>> 7a9e85f2ca78d27f532de8668507ad2090ad51eb
   
   @@all = []
   
   def initialize(name)
     @name = name
+<<<<<<< HEAD
     @@all << self
     @songs = []
+=======
+>>>>>>> 7a9e85f2ca78d27f532de8668507ad2090ad51eb
   end 
   
   def self.all 
     @@all
   end
   
+<<<<<<< HEAD
   def add_song(song)
     @songs << song
     song.artist = self 
@@ -39,6 +47,11 @@ class Artist
   end 
   
     
+=======
+  def songs 
+    self.songs.name 
+  end 
+>>>>>>> 7a9e85f2ca78d27f532de8668507ad2090ad51eb
   
 end 
   
